@@ -1,0 +1,16 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/news/categories
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/news/list?CategoryID=1&Page=1&PageSize=10
+Accept: application/json
+
+###
